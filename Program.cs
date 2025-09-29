@@ -40,6 +40,7 @@ class Program
         sw.Stop();
 
         // Ispis vremena potrebnog za dodavanje 10000 elemenata
-        Console.WriteLine($"Dodavanje 100000 elemenata: {sw.ElapsedMilliseconds} ms");
+        Console.WriteLine($"Dodavanje 10000 elemenata: {sw.ElapsedMilliseconds} ms");
     }
 }
+
