@@ -5,7 +5,7 @@ public interface ITamaraDict<TKey, TValue>
 {
   void Add(Tkey key, TValue value);
 
-  TValue Get(Tkey key);
+  TValue Get(TKey key);
 //get read-only, set menja vrednost
   TValue this[TKey key]{
   get; 
