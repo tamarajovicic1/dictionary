@@ -19,9 +19,9 @@ public interface ITamaraDict<TKey, TValue>
 
   void Clear();
 
-  int Count {get;}
+  int Count {get; }
 
-  IEnumerable <TKey> Keys {get;}
+  IEnumerable <TKey> Keys {get; }
 
-  IEnumerable <TValue> Values {get;}
+  IEnumerable <TValue> Values {get; }
 }
